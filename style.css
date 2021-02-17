@@ -1,0 +1,414 @@
+
+  h1{
+    color: #000080;
+    padding: 12.5px;
+    font-family: Oswald;
+    font-size: large;
+  }
+
+  #titlemain{
+      position: sticky;
+      top:0cm;
+      height: 2cm;
+      background-color:white; 
+      z-index: 2;
+  }
+  #pos{
+    position: sticky;
+    top: 2cm;
+    z-index: 1;
+    box-shadow: 0px 2px 10px 5px;
+  }
+  #navbarelements{
+    color: white;
+    font-family: Raleway;
+    text-align: left;
+    max-width: 100%;
+  }    
+  #pageone{
+    position: relative;
+  }
+  #pic1{
+    width: 100%;
+    height: 85vmin;
+  }
+  h2{
+    font-family: Sora;
+    color:black;
+    font-weight: bolder;
+  }
+  #head{
+    position: absolute;
+    left: 1%;
+    bottom: 2%;
+    font-size: 400%;
+    transition:  0.5s;
+    color: white;
+    animation-name: logo ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+  }
+
+  #head:hover {
+    transform: scale(0.99);
+  }
+  #subhead{
+    text-align: right;
+    position: absolute;
+    top: 2%;
+    font-size: 250%;
+    right: 1%;
+    transition:  1s;
+    color: white;
+    animation-name: logo ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+  }
+  @keyframes logo {
+    0%{
+        transform: scale(0.9);
+    }        
+    100%{
+        transform: scale(1);
+        background-color: transparent;
+    }
+}
+  #subhead:hover{
+    transform: scale(0.99);
+  }
+  #pagetwo{
+    position: relative;
+    height: 650px;
+    background-color: rgba(122, 197, 205, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  #intro{
+    max-width: 85%;
+    color: white;
+    text-align: center;
+    margin:auto;
+    font-family: Sora;
+    font-size: 22px;
+  }
+  #container{
+    height: 40%;
+    width: 20%;
+    margin-bottom: 2.5%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+  }
+  #text{
+    text-align: center;
+    color:white;
+    margin-top: -100%;
+    font-family: Raleway;
+    transform:rotate(-90deg);
+  }
+
+  #one{
+    background-color: rgb(4,58,112);
+    position: relative;
+    top: 9.44%;
+    height: 90.56%;
+    width: 10%;
+  }
+  #six{
+    background-color: rgb(24, 116, 196);
+    position: relative;
+    top: 99.4%;
+    height: 0.6%;
+    width: 10%;
+  }
+  #two2{
+    background-color: rgb(56,149,131);
+    position: relative;
+    top: 49.39%;
+    height: 50.61%;
+    width: 10%;
+  }  
+  #three{
+    background-color: rgb(112, 235, 167);
+    position: relative;
+    top: 77.77%;
+    height: 22.23%;
+    width: 10%;
+  }
+  #four{
+    background-color: rgb(120, 240, 174);
+    position: relative;
+    top: 84.7%;
+    height: 15.3%;
+    width: 10%;
+  }
+  #five{
+    background-color: rgb(136, 231, 179);
+    position: relative;
+    top: 90.1%;
+    height: 9.9%;
+    width: 10%;
+  }
+
+  #pagethree{
+    height: 650px;
+    background-color: rgba(142, 229, 238,0.7);
+  }
+  #subthree{
+    color: black;
+    font-family: Sora;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+  }
+  #vaccine{
+    font-family: Sora;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+  }
+  
+#Capshen{
+    font-family: Sora;
+    font-size: 90%;
+    color: white;
+    margin-top: -1.9%;
+}
+
+  #pix{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 15%;
+  }
+
+  #covaxin{
+    border-radius: 15px;
+  }
+  #two{
+    border-radius: 15px;
+  }
+  #sub{
+    font-family: Raleway;
+    font-weight: lighter;
+    font-size: 80%;
+  }
+
+  #cap{
+    text-align: center;
+    font-size: 150%;
+    font-family: Sora;
+    margin-top: 20px;
+  }
+  #pagefour{
+    background-color: rgba(122, 197, 205, 1);
+    height: 650px;
+    font-family: Sora;
+    display:block;
+  }
+  #subfour{
+      text-align: center;
+      padding: 50px;
+      width: 100%;
+      font-weight: 800;
+      font-size: 30px;
+  }
+  #ppl{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: space-evenly;
+    }
+  #box{
+    justify-self: center;
+    align-self: center;
+  }  
+  #chr1{
+    height: 200px;
+    width: 200px;
+    padding: 15px;
+    border-style: solid;
+    border-radius: 15px;
+    margin: auto;
+  }
+  #chr1:hover{
+    transform: scale(0.98);
+  }
+  #cap1{
+    margin-top:10px;
+    font-size: 130%;
+    text-align: center;
+  }
+  #about{
+    margin-top: 150px;
+    background-color: beige;
+    height: 150px;
+  }
+  #subfive{
+    position: relative;
+    top: 6%;
+    margin-left: 0.6%;
+    font-size: 150%;
+  }
+  #www{
+    height: 20px;
+    width: 20px;
+  }
+  #sitelink{
+    text-decoration: none;
+    color: black;
+    margin-left: 0.6%;
+  }
+  @media (max-height: 711px){
+    #covaxin, #two {
+      height: 160px;
+      width: 160px;
+    }
+  }
+  @media (max-height: 588px){
+    #covaxin, #two {
+      height: 100px;
+      width: 100px;
+    }
+  }
+  @media screen and (max-width: 1336px) {
+    #head{
+      font-size: 300%;
+    }    
+    #subhead{
+        font-size: 190%;
+    }
+  }
+  @media screen and (max-width:795px){
+    #vaccine{
+        font-size: 90%;
+        max-width: 65%;
+      }
+    #chr1{
+      height: 140px;
+      width: 140px;
+      margin: auto;
+    }
+    #covaxin{
+        width: 160px;
+        height: 160px;
+    }
+    #two{
+        width: 160px;
+        height: 160px;
+    }
+    #cap{
+        font-size: 90%;
+    }
+  }
+  @media screen and (max-width:1168px){
+    #vaccine{
+        font-size: 120%;
+        max-width: 80%;
+      }  
+    #pix{ 
+          top:10%;
+      }
+  }
+  @media screen and (max-width:636px) {
+    #head{
+      font-size: 145%;
+    }    
+    #subhead{
+     font-size: 160%;
+     top: 4%;
+    }
+    #intro{
+      font-size: 80%;
+      max-width: 70%;
+      text-align: justify;
+    }
+    h1{
+      height: 1cm;
+      padding: 8px;
+    }
+    #pos{
+      position: fixed;
+      top: 1.4cm;
+      width: 100%;
+      z-index: 2;
+    }
+    #pageone{
+      position: relative;
+      top: 0.4cm;
+      display: block;
+    }
+    #subthree{
+      padding: 30px;
+      font-size: 120%;
+      font-weight: 800;
+    }
+    #vaccine{
+      font-size: 90%;
+      max-width: 65%;
+    }
+    #pix{
+      height: 100px;
+      position: relative;
+      top: 20%;
+    }
+    #covaxin, #two{
+      width: 130px;
+      height: 130px;
+    }
+    #cap1{
+      margin-top: 5px;
+      font-size: 60%;
+      font-weight: 400;
+      margin-left: -5px;
+    }
+    #subfour{
+      width: 100%;
+      text-align: center;
+      padding: 40px;
+      font-size: 140%;
+    }
+    #ppl{
+        width: 100%;
+        margin-top: -25px;
+        flex-wrap: wrap;
+    }
+    #chr1{
+        height: 125px;
+        width:125px;
+    }  
+    #text{
+      font-size: 20%;
+      margin-top:-140%;
+    }
+    #Capshen{
+      font-size: 20%;
+    }
+    #about{
+      margin-bottom:0px;
+      height: 150px;
+
+    }
+  }
+  html{
+    height: 100%;
+    width: 100%;
+  }
+  #contact{
+    font-size: 120%;
+    text-align: center;
+    margin: auto;
+  }
+  
