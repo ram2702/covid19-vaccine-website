@@ -1,0 +1,89 @@
+body{
+  font-family: Sora;
+  width: 100%;
+  background-color: rgb(54, 52, 52);
+}
+#backtext{
+  display: inline;
+}
+#navbared {
+  background-color: white;
+  opacity: 1;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#maintitle {
+  font-family: 'Fjalla One';
+  font-size: 35px;
+  color: #000080;
+}
+#video{
+  width: 700px;
+  height: 400px;
+  margin-top: 50px;
+}
+.back {
+  font-family: Raleway;
+  padding: 0px;
+  font-size: 25px;
+}
+#SubHeader{
+  background-color: skyblue;
+  width: 100%;
+  margin-top: 77px;
+}
+h2{
+  color: white;
+  margin: 0 auto;   
+  font-family: Sora;
+  text-align: center;
+  padding: 20px;
+  font-size: 50px;
+}
+#par{
+    margin: 0 auto;    
+    text-align:left;
+    font-family: Sora;
+    font-size: 20px;
+    width: 80%;
+    padding: 60px;
+  }
+  #bod{
+    /* background-color: rgba(214, 221, 232,0.3); */
+    background-color: beige;
+    max-width: 1536px;
+    margin: 0 auto;
+    min-height: 60vmin;
+  }
+
+@media (max-width:430px){
+  
+  #video{
+    margin: 0;
+    width: 300px;
+    height: 250px;
+  }
+  #navbared{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+  #maintitle{
+    margin-left: 0px;
+  }
+  h2{
+    font-size: 30px;
+  }
+  #backtext{
+    display: none;
+  }
+  .back img{
+    width: 10px;
+    height: 10px;
+  }
+    #par{
+      width:100%;
+      padding: 20px 10px 40px 30px;
+    }
+}

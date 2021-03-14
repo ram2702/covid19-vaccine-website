@@ -1,0 +1,353 @@
+html{
+  background-color: #ccc;
+  background-color: #24292e;
+  font-family: Sora;
+}
+.trns{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: Manjari;
+  border-radius: 15px;
+  width: fit-content;
+  margin-right: 8px;
+  margin-top: -2px;
+}
+.trns li{
+  text-align: center;
+}
+#maintitle {
+  font-family: 'Fjalla One';
+  font-size: 35px;
+  color: #000080;
+}
+body{
+  font-size: 1em;
+  margin: 0px;
+  max-width: 1536px;
+  line-height: 1;
+  margin: 0 auto;
+
+}
+#navbared {
+  background-color: white;
+  opacity: 1;
+}
+#navelements {
+  font-family: Raleway;
+  font-size: 25px;
+}
+#container{
+  background-image: url(https://images.pexels.com/photos/5878517/pexels-photo-5878517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vmin;
+  color: white;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  flex-direction: column;    
+}
+#quote{
+  text-align: end;
+  margin-right: 15px;
+  font-family: Ubuntu;
+  font-size: 35px;
+  padding-top: 80px;
+}
+#mainhead{
+  text-align: center;
+  align-self: flex-end;
+  font-size: 65px;
+  padding: 0px 5px 0px 5px;
+  font-weight: 500;
+  font-family: Sora;
+}
+.pgtwo{
+  background-color: #023e8a;
+  color: white;
+  padding: 130px;
+  min-height: 100vmin;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#intro{
+  text-align: left;
+  background-color: #24292e;
+  line-height: 140%;
+  border-radius: 15px;
+  font-size: 20px;
+  padding: 50px;
+  font-family: Sora;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0,1);
+}
+#para{
+  width: 100%;
+  margin: 0 auto;
+}
+#introimg{
+  margin: auto;
+  display: block;
+  width: 50%;
+  border-radius: 15px;
+}
+#caption{
+  font-size: 15px;
+  text-align: center;
+}
+#graph{
+  padding-top: 30px;
+  color: white;
+}
+canvas{
+  color: yellowgreen;
+}
+#vaccine{
+  display: flex;
+  background-color: rgb(51, 49, 49);
+  color: white;
+  min-height: 100vmin;
+  padding: 70px 20px 70px 30px;
+  flex-direction: column;
+  justify-content: center;
+}
+#Vachead{
+  font-size: 70px;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.test{
+  text-align: left;
+  font-size: 30px;
+  max-width: 70%;
+  margin-bottom: 30px;
+}
+.test span{
+  color:yellow;
+}
+#butcont{
+  display: flex;
+  flex-direction: row;
+}
+.button{
+  background-color: rgb(74, 66, 66);
+  border-style:none;
+  color: white;
+  font-family: Sora;
+  height: 50px;
+  width: 170px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px;
+}
+.Vacpic{
+  background-color: #CED4DA;
+  min-width: 100%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 20px;
+}
+.Vacdesc{
+  color: black;
+  text-decoration: none;
+  text-align: end;
+  align-self: center; 
+  font-family: Sora;
+  font-size: 20px;
+  margin: 0  10px 0px 10px;
+}
+.vs{
+  text-align: left;
+}
+.Vacdesc span{
+  font-size: 15px;
+}
+#pgfour{
+  background-color: #5e666e;
+  color:white;
+  padding: 70px 20px 70px 30px;
+}
+.prohead{
+  font-size: 70px;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 70px;
+}
+.cunt{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.box{
+  color: black;
+  font-family: Sora;
+  gap: 40px;
+}
+.box figcaption{
+  margin: 10px 0 20px 0;
+}
+.box img{
+  height: 200px;
+  width: 200px;
+  border: 3.5px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+.box {
+  transform: scale(1.1);
+  margin-bottom: 10px;
+}
+.pgfive{
+  background-color: beige;
+  text-align: left;
+  padding: 20px 20px 1px 20px;
+  text-decoration: none;
+}
+.pgfive h3{
+  font-size: 30px;
+  color: black;
+}
+.pgfive img{
+  height: 30px;
+  width: 30px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+/*Tablet View*/
+@media(max-width:800px){
+  #mainhead{
+      font-size: 50px;
+      padding: 0px;
+  }
+  #quote{
+    padding-top: 90px;
+  }
+  .pgtwo{
+    padding: 40px;
+    font-size: 20px;
+  }
+  #para{
+    width: 100%;
+    margin: 0;
+  }
+  #covishield{
+    padding: 10px;
+  }
+  #introimg{
+    width: 90%;
+  }
+}
+
+/*SmartPhone View*/
+@media (max-width: 430px){
+  #container{
+    min-height: 140vmin;
+    background-image: url(../img/mobbg.jpeg);
+}
+  #container{
+      min-height: 140vmin;
+  }
+  #mainhead{
+      font-size: 30px;
+  }
+  #quote{
+      font-size: 20px;
+      padding-top: 70px;
+  }
+  .pgtwo{
+    padding: 20px 0px 20px 0px;
+      font-size: 15px;
+  }
+  #caption{
+    font-size: 10px;
+  }
+  #intro{
+    border-radius: 0%;
+    font-size: 1em;
+  }
+  .zola{
+    display: none;
+  }
+  #introimg{
+  width: 100%;
+  }
+  #Vachead, .prohead{
+    max-width: 100%;
+    font-size: 40px;
+  }
+  .test{
+    text-align: left;
+    font-size: 20px;
+    max-width: 90%;
+    margin-bottom: 30px;
+  }
+  .Vacpic{
+    flex-direction: column;
+    width: 100%;
+  }
+  #covaxin, #covishield{
+    width: 100%;
+  }
+  .pictwo{
+    flex-direction: column-reverse;
+  }
+  #para{
+    width: 100%;
+    margin: 0;
+  }
+  .Vacdesc{
+    margin: 20px 0px 20px 0px;
+  }
+  .cunt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .trns{
+    margin: 10px 0px 0 0;
+    text-align: center;
+    width: 100%;
+    background-color: #5e666e;
+  }
+  .button{
+    width: 120px;
+  }
+}
+@media (max-width:240px){
+  .button{
+    width: 100px;
+    margin-left: 0px;
+  }
+}

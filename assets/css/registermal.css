@@ -1,0 +1,102 @@
+body{
+  font-family: Manjari, Sora;
+  width: 100%;
+  background-color: beige;
+}
+#backtext{
+  display: inline;
+}
+#navbared {
+  background-color: white;
+  opacity: 1;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#maintitle {
+  font-family: 'Fjalla One';
+  font-size: 35px;
+  color: #000080;
+}
+.back {
+  font-family: Raleway;
+  padding: 0px;
+  font-size: 25px;
+}
+#SubHeader{
+  background-color: skyblue;
+  width: 100%;
+  margin-top: 77px;
+}
+h2{
+  color: white;
+  margin: 0 auto;   
+  font-family: Manjari;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  font-size: 50px;
+}
+h3{
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding: 25px;
+  /* text-align: center; */
+}
+#par{
+  margin: 0 auto;    
+  text-align:center;
+  font-size: large;
+  width: 90%;
+}
+  .listin{  
+
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .listin li{
+    margin: 0 auto;
+    text-align:center;    
+    background-color: #FFC56C;
+    margin-bottom: 10px;
+    font-size: large;
+    width: 40%;
+    padding: 1%;
+    border-radius: 15px;
+   
+  }
+  li:hover{
+    transform: scale(1.1);
+  }
+@media (max-width:430px){
+  #navbared{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+  #maintitle{
+    margin-left: 0px;
+  }
+  h2{
+    font-size: 30px;
+  }
+  #backtext{
+    display: none;
+  }
+  .back img{
+    width: 10px;
+    height: 10px;
+  }
+    h2{
+      font-size: 30px;
+    }
+    .listin li{
+      margin-left: -20px;
+      width:100%;
+      padding: 1%;
+
+    }
+}
